@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery with Thumbnails</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 class="text-center">Image Gallery</h1>
+
+    <div class="gallery-container">
+        <div class="thumbnail">
+            <img src="https://picsum.photos/300?random=1" alt="Image 1">
+        </div>
+        <div class="thumbnail">
+            <img src="https://picsum.photos/300?random=2" alt="Image 2">
+        </div>
+        <div class="thumbnail">
+            <img src="https://picsum.photos/300?random=3" alt="Image 3">
+        </div>
+        <div class="thumbnail">
+            <img src="https://picsum.photos/300?random=4" alt="Image 4">
+        </div>
+    </div>
+
+    <div class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modal-img">
+        <div id="caption"></div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
